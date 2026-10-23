@@ -1,0 +1,6 @@
+feature_set,train_accuracy,ood_accuracy
+q2,0.27791666666666665,0.27666666666666667
+q2_q3,0.9995833333333334,1.0
+q2_q3_q4,1.0,1.0
+q2_q3_q4_erank,1.0,1.0
+raw_coordinates,1.0,0.175

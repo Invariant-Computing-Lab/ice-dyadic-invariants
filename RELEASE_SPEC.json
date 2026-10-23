@@ -1,0 +1,28 @@
+{
+  "repo": "ice-dyadic-invariants",
+  "codes": [
+    "N010"
+  ],
+  "commands": [
+    [
+      "python",
+      "code/ice_invariant_validation.py"
+    ]
+  ],
+  "check_cwd": ".",
+  "scope": "Original mathematical benchmark with archived results. Computational replay is not proof auditing, priority review or physical validation.",
+  "status": "LOCAL_CHECKS_PASS_OWNER_GATES_OPEN",
+  "source_unchanged": true,
+  "source_archive_sha256": "c9f901fe21eeb2b686834325cea01de285f215c36a2646bbdd9a40b860ace4d9",
+  "owner_approval_required": true,
+  "public_uploaded": false,
+  "source_reference": "See private release registry; source hashes retained.",
+  "last_check": {
+    "repo": "ice-dyadic-invariants",
+    "passed": true,
+    "scope": "Original mathematical benchmark with archived results. Computational replay is not proof auditing, priority review or physical validation.",
+    "commands": 1,
+    "readiness": "LOCAL_CHECKS_PASS_OWNER_GATES_OPEN",
+    "reason": "Declared local checks passed; scientific, rights and deployment scope remain limited."
+  }
+}

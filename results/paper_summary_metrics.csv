@@ -1,0 +1,21 @@
+section,metric,value
+S1,max O(p)xO(q) relative error,4.306499586557586e-15
+S1,median anisotropic fingerprint distance,1.916335661128273
+S2,max CCA spectrum GL error,2.171526847227767e-14
+S2,median q2 GL relative change,0.19410083802032524
+S3,q2 OOD accuracy,0.27666666666666667
+S3,q2_q3 OOD accuracy,1.0
+S3,q2_q3_q4 OOD accuracy,1.0
+S3,q2_q3_q4_erank OOD accuracy,1.0
+S3,raw_coordinates OOD accuracy,0.175
+S4,partner_alpha_plv delta,0.10239157205254025
+S4,partner_alpha_plv p,0.0004997501249375312
+S4,partner_alpha_q2 delta,8.491690908496441e-06
+S4,partner_alpha_q2 p,0.7076461769115442
+S4,common_theta_plv delta,-0.0025854551240806906
+S4,common_theta_plv p,0.8010994502748626
+S5,linked invariant OOD R2,0.9911885370209595
+S5,independent invariant OOD R2,-0.01462538279118435
+S5,common_cause invariant OOD R2,0.23005053412267457
+S6,effective rank t=0,6.483431076725804
+S6,effective rank t=1,1.0

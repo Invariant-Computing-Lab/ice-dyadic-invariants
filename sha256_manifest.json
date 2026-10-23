@@ -1,0 +1,171 @@
+{
+  "algorithm": "SHA-256",
+  "generated": "2026-08-12",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "sha256": "9d6e8f8222ea049cc962f6de3029a596f2bd8959f2c5f4b274a464cf1b4c8e1b",
+      "bytes": 377
+    },
+    {
+      "path": "ENVIRONMENT.txt",
+      "sha256": "98fb8fe993ec61e1006a5b1187e76faaab6edd0ddcdcb2b09f2e8e4b4ccac19e",
+      "bytes": 225
+    },
+    {
+      "path": "MANIFEST.md",
+      "sha256": "8c746a5af863d8a149bd2db09d17f1cb2ed2aa9056f62c1f69e6d80f351fe315",
+      "bytes": 1311
+    },
+    {
+      "path": "README.md",
+      "sha256": "b5eafbe43f65eabddfe72c5c040500796575e2424e5ab08f0f94006bcd3bf4e6",
+      "bytes": 1665
+    },
+    {
+      "path": "SUBMISSION_NOTES.md",
+      "sha256": "5104ed8188a0de642121c9ccd8011d9015d3c24ef0da9be248fa9984d75135c8",
+      "bytes": 1085
+    },
+    {
+      "path": "code/build_documents.py",
+      "sha256": "5b74d1fc9a9a1edb71c2404b9883b36e1628dce896e658f7b74704f780cad2d7",
+      "bytes": 46773
+    },
+    {
+      "path": "code/ice_invariant_validation.py",
+      "sha256": "59b6f7ab0a5151c5077cd169228539b7f22ad9bd871e4f13e060184fd2181fdf",
+      "bytes": 20773
+    },
+    {
+      "path": "docs/Cover_Letter_Draft.docx",
+      "sha256": "657423d76e62d4b2739cd1a2ece3f16012c33502e43b0e3ecd80ac33dab69718",
+      "bytes": 38700
+    },
+    {
+      "path": "docs/Cover_Letter_Draft.pdf",
+      "sha256": "ccba74bf32a704491dba92dedf54c50bb395c9098ca3e28aaf3367f82a6aa47c",
+      "bytes": 36276
+    },
+    {
+      "path": "docs/ICE_Quotient_Geometric_Invariants_Main_Manuscript.docx",
+      "sha256": "5a9b973a0c3fec0ef08df9f0df98f9d9a8325eb97f1674ec2f72af7a6ba256c7",
+      "bytes": 500154
+    },
+    {
+      "path": "docs/ICE_Quotient_Geometric_Invariants_Main_Manuscript.pdf",
+      "sha256": "771c8aa5bfa94a41bd0a5a5f28a6fa5cf4c6f16642d9adade4bf3c3c4a2a1426",
+      "bytes": 753443
+    },
+    {
+      "path": "docs/ICE_Quotient_Geometric_Invariants_Supplementary_Appendix.docx",
+      "sha256": "b9b4af425b90d2256326e13856f47f8c995dbe1fa30c3013848cf0b3af6e2aa4",
+      "bytes": 150341
+    },
+    {
+      "path": "docs/ICE_Quotient_Geometric_Invariants_Supplementary_Appendix.pdf",
+      "sha256": "ec967fe8fb777826ecf085068611802286dc1dc7ca7f3c8cb177374bdc05a60d",
+      "bytes": 322669
+    },
+    {
+      "path": "figures/Figure_1_Transformation_Invariance.png",
+      "sha256": "c4c3306d2abc954985bb106b7511a66e404fe58302e96634b95f5c85a3519afb",
+      "bytes": 99432
+    },
+    {
+      "path": "figures/Figure_2_Minimal_Generators.png",
+      "sha256": "7692faff70c119177fdcde588db3b4f47c14503d95645b8b9bafa281980f266a",
+      "bytes": 100724
+    },
+    {
+      "path": "figures/Figure_3_EEG_Surrogate_Controls.png",
+      "sha256": "e65299dedfe6dd97be530233b6d50b3211d3cf8f729e08cbe9d357fd7aea0ed6",
+      "bytes": 82887
+    },
+    {
+      "path": "figures/Figure_4_Cross_Level_Confound.png",
+      "sha256": "cc766cdb19413ea9da3f60efd401452aabd90a692c91f6a67484d93be93fe442",
+      "bytes": 83030
+    },
+    {
+      "path": "figures/Figure_5_Critical_Locus.png",
+      "sha256": "439813c7e0bff66981b6fd19662b414efe90858a00dac16768c79033f066e5e6",
+      "bytes": 110609
+    },
+    {
+      "path": "figures/Supplementary_Figure_S1_GL_Extension.png",
+      "sha256": "c367312d5a2ec489efed5009d296fec45fc73eef4869297f34f7321c78b43823",
+      "bytes": 69963
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "eceece6d300170d87b02d8fa221de5729fb5c293cdb3105aa3689a7029edfa59",
+      "bytes": 92
+    },
+    {
+      "path": "results/S1_transformation_invariance.csv",
+      "sha256": "84565695e735840c52c21accdcf5946ecba867989e1c1c9f2ba4f1f8bc8dfba5",
+      "bytes": 44855
+    },
+    {
+      "path": "results/S2_GL_extension.csv",
+      "sha256": "8739f16fd378339dd318bbbaadbbfebe174e0d1c76565bc571c91d0e5f80fa2d",
+      "bytes": 13751
+    },
+    {
+      "path": "results/S3_minimal_generator_scores.csv",
+      "sha256": "0f8553aa35d4ff39a02da705c1409a65401761eddfda1ff2b7b15930160ca268",
+      "bytes": 178
+    },
+    {
+      "path": "results/S3_moment_matched_templates.csv",
+      "sha256": "17aec038bff5f97a67f82b012f1613fe0398b419e31e01892a3dec2c91677df9",
+      "bytes": 1418
+    },
+    {
+      "path": "results/S3_newton_spectrum_reconstruction.csv",
+      "sha256": "17bcf94700e500af6462605f13abad0310de65084af7ba655ccead3360a5f2f0",
+      "bytes": 7828
+    },
+    {
+      "path": "results/S4_dual_EEG_pairwise_metrics.csv",
+      "sha256": "138c1b92fdddc83dfccb19c4d1bcaf7668e5cb01e2a5966b2876b768f0f5313c",
+      "bytes": 56762
+    },
+    {
+      "path": "results/S4_dual_EEG_surrogate_tests.csv",
+      "sha256": "7220355a8bfee5854de7117e4d86ee83c6ad21d837a9df367fc961c13ea98b88",
+      "bytes": 3751
+    },
+    {
+      "path": "results/S5_cross_level_reconstructibility.csv",
+      "sha256": "f2c836ce7c1d944d5f333ae135de5006de4b48cd6d9d8355dba96aca4afb9b49",
+      "bytes": 3397
+    },
+    {
+      "path": "results/S6_critical_locus.csv",
+      "sha256": "9f8a2c34a548f6b6b12188d09599ebd2c94b22455a9b7753c4e4a4a5ba2c7af3",
+      "bytes": 93808
+    },
+    {
+      "path": "results/final_summary.json",
+      "sha256": "c4f8d4f7c541784fdc73f5e479d5b742e96b8666dfa6249da786e19356cdf854",
+      "bytes": 2889
+    },
+    {
+      "path": "results/paper_summary_metrics.csv",
+      "sha256": "4e3b2537ad9f122ab7fd6772c4c28c7861b9955f6d549907765e596736ac2f5e",
+      "bytes": 895
+    },
+    {
+      "path": "results/run_stdout.txt",
+      "sha256": "d6daf537040c2b8f7e59477fb96db552512901455b4426b06e7f62c3aeda8f81",
+      "bytes": 2890
+    },
+    {
+      "path": "run_all.sh",
+      "sha256": "78c9469ab1ce88f12028b4aa7aaf70288ee1bc794ed64121d37ed00f83f1418e",
+      "bytes": 109
+    }
+  ]
+}

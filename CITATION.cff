@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "ICE Quotient-Geometric Invariants: Synthetic Falsification Package"
+message: "Please cite the accompanying manuscript if you use this code or synthetic validation suite."
+type: software
+authors:
+  - family-names: "Yıldırım"
+    given-names: "Emirhan"
+    orcid: "https://orcid.org/0009-0002-5884-3660"
+version: "1.0.0"
+date-released: "2026-08-12"

@@ -1,0 +1,20 @@
+{
+  "repo": "ice-dyadic-invariants",
+  "recovery": "CP03R1",
+  "tests_executed": 1,
+  "passed": true,
+  "scope": "Original mathematical benchmark with archived results. Computational replay is not proof auditing, priority review or physical validation.",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "code/ice_invariant_validation.py"
+      ],
+      "exit_code": 0,
+      "seconds": 14.39,
+      "stdout": "{\n  \"seed\": 20260812,\n  \"S1\": {\n    \"n\": 1000,\n    \"orthogonal_max_rel_error_max\": 4.306499586557586e-15,\n    \"orthogonal_max_rel_error_median\": 8.211177220659382e-16,\n    \"anisotropic_distance_median\": 1.916335661128273,\n    \"anisotropic_distance_p95\": 3.6934596612657815\n  },\n  \"S2\": {\n    \"n\": 300,\n    \"cca_max_abs_error_max\": 2.171526847227767e-14,\n    \"cca_max_abs_error_median\": 4.029762634694123e-15,\n    \"q2_relative_change_median\": 0.19410083802032524\n  },\n  \"S3\": {\n    \"chance\": 0.16666666666666666,\n    \"scores\": {\n      \"q2\": {\n        \"train\": 0.27791666666666665,\n        \"ood\": 0.27666666666666667\n      },\n      \"q2_q3\": {\n        \"train\": 0.9995833333333334,\n        \"ood\": 1.0\n      },\n      \"q2_q3_q4\": {\n        \"train\": 1.0,\n        \"ood\": 1.0\n      },\n      \"q2_q3_q4_erank\": {\n        \"train\": 1.0,\n        \"ood\": 1.0\n      },\n      \"raw_coordinates\": {\n        \"train\": 1.0,\n        \"ood\": 0.175\n      }\n    },\n    \"newton_median_max_error\": 1.995684520417207e-11,\n    \"newton_worst_max_error\": 1.4859291927842022e-06\n  },\n  \"S4\": {\n    \"partner_alpha_plv\": {\n      \"real_mean\": 0.9283141579507909,\n      \"shuffled_mean\": 0.8259225858982505,\n      \"delta\": 0.10239157205254025,\n      \"ci_low\": 0.08171844578883672,\n      \"ci_high\": 0.12666796588665966,\n      \"signflip_p\": 0.0004997501249375312\n    },\n    \"partner_alpha_q2\": {\n      \"real_mean\": 0.9997749615920734,\n      \"shuffled_mean\": 0.9997664699011647,\n      \"delta\": 8.491690908496441e-06,\n      \"ci_low\": -3.459718856504036e-05,\n      \"ci_high\": 5.0936490902596955e-05,\n      \"signflip_p\": 0.7076461769115442\n    },\n    \"common_theta_plv\": {\n      \"real_mean\": 0.7165566421042451,\n      \"shuffled_mean\": 0.7191420972283259,\n      \"delta\": -0.0025854551240806906,\n      \"ci_low\": -0.024080910325879862,\n      \"ci_high\": 0.018359958146391384,\n      \"signflip_p\": 0.8010994502748626\n    }\n  },\n  \"S5\": {\n    \"linked\": {\n      \"invariant_ood_r2\": 0.9911885370209595,\n      \"raw_ood_r2\": -6.827792308113172,\n      \"trial_shuffled_r2\": 0.0058675200534655065\n    },\n    \"independent\": {\n      \"invariant_ood_r2\": -0.01462538279118435,\n      \"raw_ood_r2\": -0.39222553448064634,\n      \"trial_shuffled_r2\": -0.01583410177977403\n    },\n    \"common_cause\": {\n      \"invariant_ood_r2\": 0.23005053412267457,\n      \"raw_ood_r2\": -2.2134206941784424,\n      \"trial_shuffled_r2\": -0.004079369952917385\n    }\n  },\n  \"S6\": {\n    \"0.0\": {\n      \"effective_rank\": 6.483431076725804,\n      \"minimum_singular_value\": 0.3,\n      \"exact_rank\": 8.0,\n      \"logdet\": -8.01883070287359\n    },\n    \"0.95\": {\n      \"effective_rank\": 1.0551304488896844,\n      \"minimum_singular_value\": 0.015000000000000012,\n      \"exact_rank\": 8.0,\n      \"logdet\": -49.959082532629445\n    },\n    \"1.0\": {\n      \"effective_rank\": 1.0,\n      \"minimum_singular_value\": 1.2145201079751912e-19,\n      \"exact_rank\": 1.0,\n      \"logdet\": -Infinity\n    }\n  }\n}\n",
+      "stderr": ""
+    }
+  ],
+  "generated_result_hashes": {}
+}
